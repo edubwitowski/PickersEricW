@@ -14,6 +14,13 @@
 		7FECA646203B6C5400E7D66D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FECA644203B6C5400E7D66D /* LaunchScreen.storyboard */; };
 		7FECA651203B6C5500E7D66D /* PickersEricWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FECA650203B6C5500E7D66D /* PickersEricWTests.swift */; };
 		7FECA65C203B6C5500E7D66D /* PickersEricWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FECA65B203B6C5500E7D66D /* PickersEricWUITests.swift */; };
+		7FECA66B203B6FA900E7D66D /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FECA669203B6FA900E7D66D /* DatePickerViewController.swift */; };
+		7FECA66E203B702000E7D66D /* SingleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FECA66D203B702000E7D66D /* SingleComponentPickerViewController.swift */; };
+		7FECA670203B703F00E7D66D /* DoubleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FECA66F203B703F00E7D66D /* DoubleComponentPickerViewController.swift */; };
+		7FECA672203B706E00E7D66D /* DependentComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FECA671203B706E00E7D66D /* DependentComponentPickerViewController.swift */; };
+		7FECA674203B708300E7D66D /* CustomPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FECA673203B708300E7D66D /* CustomPickerViewController.swift */; };
+		7FECA676203B72E000E7D66D /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FECA675203B72E000E7D66D /* apple.png */; };
+		7FECA678203B730600E7D66D /* lemon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FECA677203B730600E7D66D /* lemon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		7FECA657203B6C5500E7D66D /* PickersEricWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickersEricWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FECA65B203B6C5500E7D66D /* PickersEricWUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickersEricWUITests.swift; sourceTree = "<group>"; };
 		7FECA65D203B6C5500E7D66D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FECA669203B6FA900E7D66D /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		7FECA66D203B702000E7D66D /* SingleComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleComponentPickerViewController.swift; sourceTree = "<group>"; };
+		7FECA66F203B703F00E7D66D /* DoubleComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleComponentPickerViewController.swift; sourceTree = "<group>"; };
+		7FECA671203B706E00E7D66D /* DependentComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependentComponentPickerViewController.swift; sourceTree = "<group>"; };
+		7FECA673203B708300E7D66D /* CustomPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPickerViewController.swift; sourceTree = "<group>"; };
+		7FECA675203B72E000E7D66D /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apple.png; path = "../07 - ImageSets/apple.imageset/apple.png"; sourceTree = "<group>"; };
+		7FECA677203B730600E7D66D /* lemon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lemon.png; path = "../07 - ImageSets/lemon.imageset/lemon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +95,8 @@
 				7FECA64F203B6C5500E7D66D /* PickersEricWTests */,
 				7FECA65A203B6C5500E7D66D /* PickersEricWUITests */,
 				7FECA639203B6C5400E7D66D /* Products */,
+				7FECA675203B72E000E7D66D /* apple.png */,
+				7FECA677203B730600E7D66D /* lemon.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +119,11 @@
 				7FECA642203B6C5400E7D66D /* Assets.xcassets */,
 				7FECA644203B6C5400E7D66D /* LaunchScreen.storyboard */,
 				7FECA647203B6C5400E7D66D /* Info.plist */,
+				7FECA669203B6FA900E7D66D /* DatePickerViewController.swift */,
+				7FECA66D203B702000E7D66D /* SingleComponentPickerViewController.swift */,
+				7FECA66F203B703F00E7D66D /* DoubleComponentPickerViewController.swift */,
+				7FECA671203B706E00E7D66D /* DependentComponentPickerViewController.swift */,
+				7FECA673203B708300E7D66D /* CustomPickerViewController.swift */,
 			);
 			path = PickersEricW;
 			sourceTree = "<group>";
@@ -234,6 +255,8 @@
 			files = (
 				7FECA646203B6C5400E7D66D /* LaunchScreen.storyboard in Resources */,
 				7FECA643203B6C5400E7D66D /* Assets.xcassets in Resources */,
+				7FECA678203B730600E7D66D /* lemon.png in Resources */,
+				7FECA676203B72E000E7D66D /* apple.png in Resources */,
 				7FECA641203B6C5400E7D66D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +284,11 @@
 			files = (
 				7FECA63E203B6C5400E7D66D /* ViewController.swift in Sources */,
 				7FECA63C203B6C5400E7D66D /* AppDelegate.swift in Sources */,
+				7FECA672203B706E00E7D66D /* DependentComponentPickerViewController.swift in Sources */,
+				7FECA670203B703F00E7D66D /* DoubleComponentPickerViewController.swift in Sources */,
+				7FECA674203B708300E7D66D /* CustomPickerViewController.swift in Sources */,
+				7FECA66E203B702000E7D66D /* SingleComponentPickerViewController.swift in Sources */,
+				7FECA66B203B6FA900E7D66D /* DatePickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
