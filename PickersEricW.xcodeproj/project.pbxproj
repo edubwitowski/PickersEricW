@@ -21,6 +21,7 @@
 		7FECA674203B708300E7D66D /* CustomPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FECA673203B708300E7D66D /* CustomPickerViewController.swift */; };
 		7FECA676203B72E000E7D66D /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FECA675203B72E000E7D66D /* apple.png */; };
 		7FECA678203B730600E7D66D /* lemon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FECA677203B730600E7D66D /* lemon.png */; };
+		FA2FCF2B203C85AB00C5CC1F /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA2FCF2A203C85AB00C5CC1F /* statedictionary.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		7FECA673203B708300E7D66D /* CustomPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPickerViewController.swift; sourceTree = "<group>"; };
 		7FECA675203B72E000E7D66D /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apple.png; path = "../07 - ImageSets/apple.imageset/apple.png"; sourceTree = "<group>"; };
 		7FECA677203B730600E7D66D /* lemon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lemon.png; path = "../07 - ImageSets/lemon.imageset/lemon.png"; sourceTree = "<group>"; };
+		FA2FCF2A203C85AB00C5CC1F /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				7FECA639203B6C5400E7D66D /* Products */,
 				7FECA675203B72E000E7D66D /* apple.png */,
 				7FECA677203B730600E7D66D /* lemon.png */,
+				FA2FCF2A203C85AB00C5CC1F /* statedictionary.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,8 +125,8 @@
 				7FECA669203B6FA900E7D66D /* DatePickerViewController.swift */,
 				7FECA66D203B702000E7D66D /* SingleComponentPickerViewController.swift */,
 				7FECA66F203B703F00E7D66D /* DoubleComponentPickerViewController.swift */,
-				7FECA671203B706E00E7D66D /* DependentComponentPickerViewController.swift */,
 				7FECA673203B708300E7D66D /* CustomPickerViewController.swift */,
+				7FECA671203B706E00E7D66D /* DependentComponentPickerViewController.swift */,
 			);
 			path = PickersEricW;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2FCF2B203C85AB00C5CC1F /* statedictionary.plist in Resources */,
 				7FECA646203B6C5400E7D66D /* LaunchScreen.storyboard in Resources */,
 				7FECA643203B6C5400E7D66D /* Assets.xcassets in Resources */,
 				7FECA678203B730600E7D66D /* lemon.png in Resources */,
@@ -535,6 +539,7 @@
 				7FECA662203B6C5500E7D66D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FECA663203B6C5500E7D66D /* Build configuration list for PBXNativeTarget "PickersEricWTests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +548,7 @@
 				7FECA665203B6C5500E7D66D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FECA666203B6C5500E7D66D /* Build configuration list for PBXNativeTarget "PickersEricWUITests" */ = {
 			isa = XCConfigurationList;
@@ -551,6 +557,7 @@
 				7FECA668203B6C5500E7D66D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
