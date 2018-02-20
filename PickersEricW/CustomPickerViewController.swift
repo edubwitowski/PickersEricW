@@ -12,6 +12,8 @@ import AudioToolbox
 
 
 class CustomPickerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+    
+    
     private var images:[UIImage]!
     @IBOutlet weak var picker: UIPickerView!
     @IBOutlet weak var winLabel: UILabel!
