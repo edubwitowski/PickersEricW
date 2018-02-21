@@ -11,7 +11,7 @@ import UIKit
 class DoubleComponentPickerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource{
 
     
-    @IBOutlet var doublePicker: UIView!
+    @IBOutlet var doublePicker: UIPickerView!
     
     private let fillingComponent = 0
     private let breadComponent = 1
@@ -39,7 +39,7 @@ let filling = fillingTypes[fillingRow]
 let bread = breadTypes[breadRow]
 let message = "Your \(filling) on \(bread) bread will be right up."
 let alert = UIAlertController(
-    title: "Thank you for your order", message: message, preferredStyle: .Alert)
+    title: "Thank you for your order", message: message, preferredStyle: .alert)
 let action = UIAlertAction(
     title: "Great", style: .default, handler: nil)
 alert.addAction(action)

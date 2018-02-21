@@ -12,6 +12,7 @@ import AudioToolbox
 
 
 class CustomPickerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+   
     
     
     private var images:[UIImage]!
@@ -56,16 +57,16 @@ class CustomPickerViewController: UIViewController, UIPickerViewDelegate, UIPick
             }
         }
         if crunchSoundID == 0 {
-            let soundURL = Bundle.main.urlForResource("crunch", withExtension: "wav")! as CFURL
+            let soundURL = Bundle.main.url(forResource: "crunch", withExtension: "wav")! as CFURL
             AudioServicesCreateSystemSoundID(soundURL, &crunchSoundID)
         }
         AudioServicesPlaySystemSound(crunchSoundID)
         if win {
-            DispatchQueue.main.after(when: .now() + 0.5) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                 self.playWinSound()
             }
         } else {
-            DispatchQueue.main.after(when: .now() + 0.5) {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                 self.showButton()
             }
         }
@@ -76,7 +77,7 @@ class CustomPickerViewController: UIViewController, UIPickerViewDelegate, UIPick
     
     // MARK:-
     // MARK: Picker data source methods
-    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 5
     }
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
@@ -85,12 +86,12 @@ class CustomPickerViewController: UIViewController, UIPickerViewDelegate, UIPick
     
     // MARK:-
     // MARK: picker delegatge methods
-    func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusingView view: UIView!) -> UIView {
+    func pickerView(_ pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusing view: UIView?) -> UIView {
         let image = images[row]
         let imageView = UIImageView(image: image)
         return imageView
     }
-    func pickerView(pickerView: UIPickerView, rowHeightForComponent component: Int) -> CGFloat {
+    func pickerView(_ pickerView: UIPickerView, rowHeightForComponent component: Int) -> CGFloat {
         return 64
     }
     
@@ -104,8 +105,10 @@ class CustomPickerViewController: UIViewController, UIPickerViewDelegate, UIPick
         }
         AudioServicesPlaySystemSound(winSoundID)
         winLabel.text = "WINNER!"
-        DispatchQueue.main.after(when: .now() + 1.5){
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.5){
             self.showButton()
         }
+        
+        
     }
 }

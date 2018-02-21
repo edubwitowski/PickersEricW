@@ -21,7 +21,18 @@
 		7FECA674203B708300E7D66D /* CustomPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FECA673203B708300E7D66D /* CustomPickerViewController.swift */; };
 		7FECA676203B72E000E7D66D /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FECA675203B72E000E7D66D /* apple.png */; };
 		7FECA678203B730600E7D66D /* lemon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FECA677203B730600E7D66D /* lemon.png */; };
-		FA2FCF2B203C85AB00C5CC1F /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA2FCF2A203C85AB00C5CC1F /* statedictionary.plist */; };
+		FA2FCF2D203C9DC100C5CC1F /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA2FCF2C203C9DC100C5CC1F /* statedictionary.plist */; };
+		FA2FCF39203C9E0B00C5CC1F /* doubleicon.imageset in Resources */ = {isa = PBXBuildFile; fileRef = FA2FCF2E203C9E0900C5CC1F /* doubleicon.imageset */; };
+		FA2FCF3A203C9E0B00C5CC1F /* crown.imageset in Resources */ = {isa = PBXBuildFile; fileRef = FA2FCF2F203C9E0900C5CC1F /* crown.imageset */; };
+		FA2FCF3B203C9E0B00C5CC1F /* apple.imageset in Resources */ = {isa = PBXBuildFile; fileRef = FA2FCF30203C9E0900C5CC1F /* apple.imageset */; };
+		FA2FCF3C203C9E0B00C5CC1F /* seven.imageset in Resources */ = {isa = PBXBuildFile; fileRef = FA2FCF31203C9E0900C5CC1F /* seven.imageset */; };
+		FA2FCF3D203C9E0B00C5CC1F /* bar.imageset in Resources */ = {isa = PBXBuildFile; fileRef = FA2FCF32203C9E0A00C5CC1F /* bar.imageset */; };
+		FA2FCF3E203C9E0B00C5CC1F /* singleicon.imageset in Resources */ = {isa = PBXBuildFile; fileRef = FA2FCF33203C9E0A00C5CC1F /* singleicon.imageset */; };
+		FA2FCF3F203C9E0B00C5CC1F /* toolicon.imageset in Resources */ = {isa = PBXBuildFile; fileRef = FA2FCF34203C9E0A00C5CC1F /* toolicon.imageset */; };
+		FA2FCF40203C9E0B00C5CC1F /* lemon.imageset in Resources */ = {isa = PBXBuildFile; fileRef = FA2FCF35203C9E0A00C5CC1F /* lemon.imageset */; };
+		FA2FCF41203C9E0B00C5CC1F /* dependenticon.imageset in Resources */ = {isa = PBXBuildFile; fileRef = FA2FCF36203C9E0A00C5CC1F /* dependenticon.imageset */; };
+		FA2FCF42203C9E0B00C5CC1F /* clockicon.imageset in Resources */ = {isa = PBXBuildFile; fileRef = FA2FCF37203C9E0A00C5CC1F /* clockicon.imageset */; };
+		FA2FCF43203C9E0B00C5CC1F /* cherry.imageset in Resources */ = {isa = PBXBuildFile; fileRef = FA2FCF38203C9E0A00C5CC1F /* cherry.imageset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +73,18 @@
 		7FECA673203B708300E7D66D /* CustomPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPickerViewController.swift; sourceTree = "<group>"; };
 		7FECA675203B72E000E7D66D /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apple.png; path = "../07 - ImageSets/apple.imageset/apple.png"; sourceTree = "<group>"; };
 		7FECA677203B730600E7D66D /* lemon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lemon.png; path = "../07 - ImageSets/lemon.imageset/lemon.png"; sourceTree = "<group>"; };
-		FA2FCF2A203C85AB00C5CC1F /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
+		FA2FCF2C203C9DC100C5CC1F /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = statedictionary.plist; path = "../../../../../Users/macbook/Downloads/07 - Picker Data/statedictionary.plist"; sourceTree = "<group>"; };
+		FA2FCF2E203C9E0900C5CC1F /* doubleicon.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doubleicon.imageset; sourceTree = "<group>"; };
+		FA2FCF2F203C9E0900C5CC1F /* crown.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = crown.imageset; sourceTree = "<group>"; };
+		FA2FCF30203C9E0900C5CC1F /* apple.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = apple.imageset; sourceTree = "<group>"; };
+		FA2FCF31203C9E0900C5CC1F /* seven.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = seven.imageset; sourceTree = "<group>"; };
+		FA2FCF32203C9E0A00C5CC1F /* bar.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bar.imageset; sourceTree = "<group>"; };
+		FA2FCF33203C9E0A00C5CC1F /* singleicon.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = singleicon.imageset; sourceTree = "<group>"; };
+		FA2FCF34203C9E0A00C5CC1F /* toolicon.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = toolicon.imageset; sourceTree = "<group>"; };
+		FA2FCF35203C9E0A00C5CC1F /* lemon.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lemon.imageset; sourceTree = "<group>"; };
+		FA2FCF36203C9E0A00C5CC1F /* dependenticon.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dependenticon.imageset; sourceTree = "<group>"; };
+		FA2FCF37203C9E0A00C5CC1F /* clockicon.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = clockicon.imageset; sourceTree = "<group>"; };
+		FA2FCF38203C9E0A00C5CC1F /* cherry.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cherry.imageset; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +121,18 @@
 				7FECA639203B6C5400E7D66D /* Products */,
 				7FECA675203B72E000E7D66D /* apple.png */,
 				7FECA677203B730600E7D66D /* lemon.png */,
-				FA2FCF2A203C85AB00C5CC1F /* statedictionary.plist */,
+				FA2FCF2C203C9DC100C5CC1F /* statedictionary.plist */,
+				FA2FCF30203C9E0900C5CC1F /* apple.imageset */,
+				FA2FCF32203C9E0A00C5CC1F /* bar.imageset */,
+				FA2FCF38203C9E0A00C5CC1F /* cherry.imageset */,
+				FA2FCF37203C9E0A00C5CC1F /* clockicon.imageset */,
+				FA2FCF2F203C9E0900C5CC1F /* crown.imageset */,
+				FA2FCF36203C9E0A00C5CC1F /* dependenticon.imageset */,
+				FA2FCF2E203C9E0900C5CC1F /* doubleicon.imageset */,
+				FA2FCF35203C9E0A00C5CC1F /* lemon.imageset */,
+				FA2FCF31203C9E0900C5CC1F /* seven.imageset */,
+				FA2FCF33203C9E0A00C5CC1F /* singleicon.imageset */,
+				FA2FCF34203C9E0A00C5CC1F /* toolicon.imageset */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,8 +158,8 @@
 				7FECA669203B6FA900E7D66D /* DatePickerViewController.swift */,
 				7FECA66D203B702000E7D66D /* SingleComponentPickerViewController.swift */,
 				7FECA66F203B703F00E7D66D /* DoubleComponentPickerViewController.swift */,
-				7FECA673203B708300E7D66D /* CustomPickerViewController.swift */,
 				7FECA671203B706E00E7D66D /* DependentComponentPickerViewController.swift */,
+				7FECA673203B708300E7D66D /* CustomPickerViewController.swift */,
 			);
 			path = PickersEricW;
 			sourceTree = "<group>";
@@ -212,20 +245,24 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Eric J Witowski";
 				TargetAttributes = {
 					7FECA637203B6C5400E7D66D = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = NX7C2QWX95;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					7FECA64B203B6C5500E7D66D = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 7FECA637203B6C5400E7D66D;
 					};
 					7FECA656203B6C5500E7D66D = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 7FECA637203B6C5400E7D66D;
 					};
@@ -256,12 +293,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA2FCF2B203C85AB00C5CC1F /* statedictionary.plist in Resources */,
+				FA2FCF40203C9E0B00C5CC1F /* lemon.imageset in Resources */,
+				FA2FCF43203C9E0B00C5CC1F /* cherry.imageset in Resources */,
 				7FECA646203B6C5400E7D66D /* LaunchScreen.storyboard in Resources */,
 				7FECA643203B6C5400E7D66D /* Assets.xcassets in Resources */,
+				FA2FCF3F203C9E0B00C5CC1F /* toolicon.imageset in Resources */,
+				FA2FCF42203C9E0B00C5CC1F /* clockicon.imageset in Resources */,
 				7FECA678203B730600E7D66D /* lemon.png in Resources */,
+				FA2FCF3E203C9E0B00C5CC1F /* singleicon.imageset in Resources */,
+				FA2FCF39203C9E0B00C5CC1F /* doubleicon.imageset in Resources */,
+				FA2FCF3D203C9E0B00C5CC1F /* bar.imageset in Resources */,
+				FA2FCF3C203C9E0B00C5CC1F /* seven.imageset in Resources */,
+				FA2FCF3A203C9E0B00C5CC1F /* crown.imageset in Resources */,
 				7FECA676203B72E000E7D66D /* apple.png in Resources */,
+				FA2FCF3B203C9E0B00C5CC1F /* apple.imageset in Resources */,
 				7FECA641203B6C5400E7D66D /* Main.storyboard in Resources */,
+				FA2FCF41203C9E0B00C5CC1F /* dependenticon.imageset in Resources */,
+				FA2FCF2D203C9DC100C5CC1F /* statedictionary.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +405,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -365,7 +415,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -408,7 +462,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -416,7 +472,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -446,11 +506,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NX7C2QWX95;
 				INFOPLIST_FILE = PickersEricW/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = swift.PickersEricW.PickersEricW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -458,11 +520,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NX7C2QWX95;
 				INFOPLIST_FILE = PickersEricW/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = swift.PickersEricW.PickersEricW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -475,7 +539,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = swift.PickersEricW.PickersEricWTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickersEricW.app/PickersEricW";
 			};
 			name = Debug;
@@ -489,7 +554,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = swift.PickersEricW.PickersEricWTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickersEricW.app/PickersEricW";
 			};
 			name = Release;
@@ -502,7 +568,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = swift.PickersEricW.PickersEricWUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = PickersEricW;
 			};
 			name = Debug;
@@ -515,7 +582,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = swift.PickersEricW.PickersEricWUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = PickersEricW;
 			};
 			name = Release;

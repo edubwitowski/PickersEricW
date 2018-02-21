@@ -9,6 +9,10 @@
 import UIKit
 
 class DependentComponentPickerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
+    
+    
+    
+    
    
     private let stateComponent = 0
     private let zipComponent = 1
@@ -47,7 +51,7 @@ class DependentComponentPickerViewController: UIViewController, UIPickerViewDele
     
     // MARK:-
     //MARK: Picker data source methods
-    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 2
     }
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {

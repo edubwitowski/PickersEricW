@@ -10,6 +10,7 @@ import UIKit
 
 class SingleComponentPickerViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource{
 
+    
     @IBOutlet weak var singlePicker: UIPickerView!
     private let characterNames = ["Luke", "Leia", "Han", "Chewbacca", "Artoo", "Threepio", "Lando"]
     override func viewDidLoad() {
@@ -23,8 +24,8 @@ class SingleComponentPickerViewController: UIViewController, UIPickerViewDelegat
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func onButtonPressed(_ sender: Any) {
-        
+   
+    @IBAction func onButtonPressed(_ sender: UIButton) {
         let row = singlePicker.selectedRow(inComponent: 0)
         let selected = characterNames[row]
         let title = "you selected \(selected)!"
@@ -36,7 +37,9 @@ class SingleComponentPickerViewController: UIViewController, UIPickerViewDelegat
             title: "you're welcome", style: .default, handler: nil)
         alert.addAction(action)
         present(alert, animated: true, completion: nil)
-    }
+       }
+    
+     
     
     // MARK:-
     //MARK: Picker data source methods
@@ -49,7 +52,7 @@ class SingleComponentPickerViewController: UIViewController, UIPickerViewDelegat
     // MARK:-
     //MARK: Picker delegate methods
     
-    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String! {
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return characterNames[row]
     }
     }

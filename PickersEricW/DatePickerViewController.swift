@@ -24,7 +24,7 @@ class DatePickerViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func onButtonPressed(_ sender: Any) {
+    @IBAction func onButtonPressed(_ sender: UIButton) {
         
         let date = datePicker.date
         let message = "The date and time you selected is \(date)"
