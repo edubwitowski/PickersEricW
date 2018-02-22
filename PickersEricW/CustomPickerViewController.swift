@@ -16,9 +16,11 @@ class CustomPickerViewController: UIViewController, UIPickerViewDelegate, UIPick
     
     
     private var images:[UIImage]!
+    
     @IBOutlet weak var picker: UIPickerView!
     @IBOutlet weak var winLabel: UILabel!
     @IBOutlet weak var button: UIButton!
+    
     private var winSoundID: SystemSoundID = 0
     private var crunchSoundID: SystemSoundID = 0
     
@@ -47,6 +49,7 @@ class CustomPickerViewController: UIViewController, UIPickerViewDelegate, UIPick
         for i in 0..<5 {
             let newValue = Int(arc4random_uniform(UInt32(images.count)))
             if newValue == lastVal {
+                //numInRow++ *** NOTE THAT increment/decrement operators are depreciated in swift 3
                 numInRow+=1
             } else { numInRow = 1 }
             lastVal = newValue
@@ -100,7 +103,7 @@ class CustomPickerViewController: UIViewController, UIPickerViewDelegate, UIPick
     }
     func playWinSound(){
         if winSoundID == 0 {
-            let soundURL = Bundle.main.url( forResource: "win", withExtension: "wav")! as CFURL
+            let soundURL = Bundle.main.url(forResource: "win", withExtension: "wav")! as CFURL
             AudioServicesCreateSystemSoundID(soundURL, &winSoundID)
         }
         AudioServicesPlaySystemSound(winSoundID)
